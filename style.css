@@ -1,0 +1,289 @@
+.sliderbody
+{
+    background-color: white;
+    font: lato;
+}
+/*img{
+    width: 100%;
+    height: 100%;
+    
+}
+*/
+
+  
+
+.h1tag{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    position:relative;
+    margin-bottom: 60px;
+    color: black;
+}
+.h1tag:after{
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 4px;
+    background-color: BLACK;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+
+.item{
+    background-color: rgb(255, 255, 255);
+  /*  padding: 0px 10px 10px 10px; */
+    
+     height:280px;
+     width:140 px;
+
+
+}
+
+
+
+
+
+
+
+.image
+{
+    height:280px ;
+    width:248px;
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.item:hover .cart{
+    display: block;
+    
+}
+
+
+.logo-slider .slick-slide{
+    margin:20px;
+    
+}
+.cart
+{
+    font-size: 25px;
+    position: absolute;
+    top:72%;
+    left:43%;
+    text-align: center;
+    display: none;
+    outline: none;
+    border: none;
+
+}
+.pd1
+{
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+.item:hover .pd1
+{
+    color:red;
+    text-decoration: none;
+}
+.s1
+{
+    text-align: center;
+    text-decoration: line-through;
+    color: #edab97;
+}
+
+
+.slick-dots li.slick-active button:before{
+    color:#ff5722;
+}
+.sliick-dots li button:before{
+    font-size: 12px;
+}
+
+.slick-prev:before
+{
+    content:url('img/79.png') ;
+    position: relative;
+    top:-50px;
+    left:-30px;
+    
+}
+
+.slick-next:before {
+  content:url('img/46.png') ;
+  color: black;
+  
+  position: relative;
+  top:-50px;
+  left: -10px;
+
+
+}
+.item:hover{
+    display: block;
+    transition: all ease 0.3s;
+    transform: scale(1.0) translateY(-5px);
+}
+
+@media screen and (min-width:469px) and (max-width: 600px) {
+    .item
+    {
+        height:250px;
+        width:180px;
+    }
+    
+    .image
+    {
+        width:190px;
+        height:250px;
+       
+        
+    }
+    .slick-next:before{
+        content: "";
+    }
+    .slick-prev:before
+    {
+       content: "";
+    }
+  
+  }
+  @media screen and (max-width:468px)
+  {
+      
+      
+        .image
+        {
+          width:auto;   
+        }
+        .item{
+            width: auto;
+        }
+        .logo-slider .slick-slide{
+            margin:20px;
+            
+        }
+        .slick-next:before{
+            content: "";
+        }
+        .slick-prev:before
+        {
+           content: "";
+        }
+
+   
+  }
+  @media screen and (min-width:600px) and (max-width:768px)
+{
+   .image
+   {
+       width: 190px;
+   }
+   .item
+   {
+       width: auto;
+   }
+
+}
+@media screen and (max-width:324px)
+{
+    .pts
+    {
+        font-size: smaller;
+        margin-right: 180px;
+    }
+    .slick-prev:before {
+       margin-left: 15px;;
+      
+      }
+      .item
+      {
+          width:250px;
+          margin-left: 13px;;
+      }
+
+    
+
+}
+@media screen and (min-width:600px) and (max-width:768px)
+{
+    .pts
+    {
+    
+       padding:1px;
+        margin-right: 60px;
+        text-align: center;
+            }
+    .item
+    {
+        height:220px;
+        width:150px;
+    }
+    .image
+    {
+        height:225px;
+        width:150px;
+        padding-bottom: 5px;
+        
+    }
+    .pt
+    {
+        padding-top: 25px;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1200px)
+{
+
+   .item
+   {
+       height: 250px;
+       width:185px;
+
+   }   
+   .image{
+       height:250px;
+       width: 185px;
+       
+   } 
+   
+   #producth3,#priceh2  
+   {
+       font-size: large;
+   }
+
+}
+@media screen and (min-width:1024px) and (max-width:1200px)
+{
+    .image
+    {
+        height: 270px;
+        width:193px; 
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px)
+{
+    .image
+    {
+        height: 270px;
+        width:260px; 
+    }
+    .item
+    {
+        width: 259px;
+    }
+}
+    
+
+
+  
+  

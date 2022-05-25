@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SLIDER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">  
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body class="sliderbody">
+   <div class="container">
+       <h1 class="h1tag">BEST SELLERS</h1>
+       <div class="logo-slider">
+         <div class="pp">
+           <div class="item">
+           
+             <a href="#">
+               <img class="image" src="https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/xlatest4.jpg.pagespeed.ic.Lrd0UW2ap9.webp" alt=" ">
+               <button class="cart"> <i class="fa fa-shopping-cart"></i></button>
+               <p class="pd1">Red Jacket-$128</p>
+               
+              </a>
+              <p class="s1">$140</p>
+               
+            </div>
+            
+                
+          
+                    </div>
+          
+          <div class="pp">
+           <div class="item">
+          
+             <a href="#">
+               <img class="image" src="https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/xlatest4.jpg.pagespeed.ic.Lrd0UW2ap9.webp" alt=" ">
+               <button class="cart"> <i class="fa fa-shopping-cart"></i></button>
+               <p class="pd1">Red Jacket-$128</p>
+              </a>
+              <p class="s1">$140</p>
+            </div>
+              
+                    </div>  
+                    <div class="pp">
+           <div class="item">
+            
+             <a href="#">
+               <img class="image" src="https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/xlatest4.jpg.pagespeed.ic.Lrd0UW2ap9.webp" alt=" ">
+               <button class="cart"> <i class="fa fa-shopping-cart"></i></button>
+               <p class="pd1">Red Jacket-$128</p>
+              </a>
+              <p class="s1">$140</p>
+            </div>
+                   
+                    </div>    
+                    <div class="pp">
+           <div class="item" >
+             <a href="#">
+               <img class="image" src="https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/xlatest4.jpg.pagespeed.ic.Lrd0UW2ap9.webp" alt=" ">
+               <button class="cart"> <i class="fa fa-shopping-cart"></i></button>
+               <p class="pd1">Red Jacket-$128</p>
+              </a>
+              <p class="s1">$140</p>
+            </div>
+                   
+                    </div>   
+                    <div class="pp">
+           <div class="item">
+         
+            
+             <a href="#">
+               <img class="image" src="https://preview.colorlib.com/theme/capitalshop/assets/img/gallery/xlatest4.jpg.pagespeed.ic.Lrd0UW2ap9.webp" alt=" ">
+               <button class="cart"> <i class="fa fa-shopping-cart"></i></button>
+               <p class="pd1">Red Jacket-$128</p>
+              </a>
+              <p class="s1">$140</p>
+            </div>
+                   
+                    </div> 
+            
+       </div>
+   </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+   $('.logo-slider').slick({
+    
+  dots: false,
+  infinite: true,
+  speed: 500,
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 1300,
+  arrows:true,
+  
+  
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        arrows:true,
+       
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+</body>
+</html>
